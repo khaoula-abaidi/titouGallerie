@@ -1,0 +1,129 @@
+/* Style HTML TAGS*/
+body{
+    font: 400 15px Lato, sans-serif;
+    line-height: 1.8;
+    color: #818181;
+}
+h1{
+    font-size: 5em !important;
+}
+footer{
+    height: 100%;
+    background-color : #0080FF;
+}
+footer a{
+    color : #FFF;
+}
+footer .glyphicon{
+    font-size : 20px;
+    margin-bottom: 20px;
+    color : #FFF;
+}
+footer a:hover{
+    text-decoration : none;
+    color : #D3D3D3;
+}
+/* Style Navigation bar*/
+.navbar{
+    margin-bottom: 0;
+    background-color: #0080FF;
+    z-index: 9999;
+    border : 0;
+    font-size: 12px !important;
+    line-height: 1.42 !important;
+    letter-spacing : 4px;
+    border-radius: 0;
+    font-family: Monsterrat,sans-serif;
+}
+.navbar li,a .navbar .navbar-brand{
+    color : #FFF !important;
+}
+.navbar-nav li a:hover, .navbar-nav li.active a{
+    color : #0080FF !important;
+    background-color : #FFF !important;
+}
+.navbar-brand>img{
+    height: 45px !important;
+    width : auto;
+}
+.navbar-default .navbar-toggle{
+    border-color : #fff;
+    color : #fff !important;
+}
+.navbar-default .navbar-toggle .icon-bar{
+    background-color: #fff;
+}
+.navbar a{
+    padding : 2px 5px 2px 15px;
+}
+.jumbotron{
+    background-color: #0080FF;
+    color : #fff;
+    padding : 100px 25px;
+    font-family: Monstrerrat, sans-serif;
+}
+.fa {
+    font-size :20px;
+    padding : 0 10px;
+}
+.container-fluid{
+    padding : 60px 20px;
+}
+.text-white{
+    color : #fff;
+}
+.btn{
+    background-color: #0080FF;
+    color : #fff;
+}
+.filter-button{
+    font-size : 18px;
+    border : 1px solid #0080FF;
+    border-radius: 5px;
+    text-align: center;
+    color : #fff;
+    margin-bottom: 30px;
+}
+.filter-button:hover{
+    font-size : 18px;
+    border : 1px solid #0080FF;
+    border-radius: 5px;
+    text-align: center;
+    color : #fff;
+    background-color: #0000FF;
+}
+.btn-default:active .filter-button:active{
+    background-color: #0000FF;
+    color : #FFF; 
+}
+.gallery-images{
+    margin-bottom: 30px;
+    display : inline-block;
+}
+.img-responsive {
+    width: 300px !important;
+    height: 300px !important;
+}
+@media screen and(max-width: 991px){
+    .jumbotron{
+        padding-top : 150px;
+        padding-bottom: 50px;
+    }
+}
+@media screen and(max-width: 768px){
+    .jumbotron{
+        padding : 50px 0;
+    }
+    h1{
+        font-size : 5em !important;
+    }
+    .col-sm-4{
+        text-align : center;
+        margin : 25px 0;
+    }
+}
+@media screen and(max-width: 780px){
+    h1{
+        font-size: 3em !important;
+    }
+}
